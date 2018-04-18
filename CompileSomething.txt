@@ -1,0 +1,25 @@
+## Compiler
+When you write programs, you need to compile them before you can run them. When you compile something your compiling the source code into a binary language that the computer can understand. You’re also making an executable file that can execute the code you wrote. 
+
+
+## Compile Something
+
+First create a docutment \
+`touch newDoc.c`
+
+Nano into the document using the followint command:\
+`nano newDoc.c`
+
+Type the following:\
+`#include <stdio.h>`
+
+`main() {`\
+`printf("This is a newDoc, compile test");`\
+`}`
+
+Save and exit the document by pressing `Crtl+X` then `Y` then `Enter`
+
+Run this command:\
+`cc newDoc.c`
+
+You should get an executable file named "a.out" that can be executed.

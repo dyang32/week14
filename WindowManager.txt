@@ -1,0 +1,25 @@
+## Windows Manager
+
+Windows Manager controls and arranges the windows on screen and provides icons, 
+title bars, and more for user interactions and display. There are lots of different 
+kinds of windows manager implementations and some are built into environments. 
+One of the main reasons for so many different windows manager is for user flexibility. 
+
+## How to change your Windows Manager to Fluxbox
+
+To change the Windows Manager we need to first install a program called "Menu,"
+after that we can install Fluxbox or any other Windows Manager you choose. The
+steps below describe how to do it.
+
+**Install Menu** - This program manages the application menus so that you can 
+launch the applcation without need of launchers.\
+Open terminal then type the following command\
+`sudo apt-get install menu`
+
+**Install Fluxbox** - This Fluxbox Window Manager provides tab options and styles
+menu that you can change, along with theme, wallpapers, icons, etc. Fluxbox is just 
+one of many different Windows Manager you can use.\
+	`sudo apt-get install fluxbox`
+
+**Changing the Windows Manager** - With everything installed all you need to do is 
+logout, then from the options on the login screen select Fluxbox and login.
